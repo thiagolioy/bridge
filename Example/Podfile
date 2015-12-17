@@ -1,0 +1,13 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'bridge_Example', :exclusive => true do
+  pod "bridge", :path => "../"
+end
+
+target 'bridge_Tests', :exclusive => true do
+  pod "bridge", :path => "../"
+
+  pod 'Specta'
+  pod 'Expecta'
+end
