@@ -52,11 +52,17 @@ code_sign_if_enabled() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework 'Pods-bridge_Tests/AFNetworking.framework'
+  install_framework 'Pods-bridge_Tests/Bricks.framework'
+  install_framework 'Pods-bridge_Tests/Mantle.framework'
   install_framework 'Pods-bridge_Tests/bridge.framework'
   install_framework 'Pods-bridge_Tests/Expecta.framework'
   install_framework 'Pods-bridge_Tests/Specta.framework'
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework 'Pods-bridge_Tests/AFNetworking.framework'
+  install_framework 'Pods-bridge_Tests/Bricks.framework'
+  install_framework 'Pods-bridge_Tests/Mantle.framework'
   install_framework 'Pods-bridge_Tests/bridge.framework'
   install_framework 'Pods-bridge_Tests/Expecta.framework'
   install_framework 'Pods-bridge_Tests/Specta.framework'

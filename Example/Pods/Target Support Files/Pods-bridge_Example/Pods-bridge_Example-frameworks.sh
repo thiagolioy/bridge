@@ -52,8 +52,14 @@ code_sign_if_enabled() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework 'Pods-bridge_Example/AFNetworking.framework'
+  install_framework 'Pods-bridge_Example/Bricks.framework'
+  install_framework 'Pods-bridge_Example/Mantle.framework'
   install_framework 'Pods-bridge_Example/bridge.framework'
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework 'Pods-bridge_Example/AFNetworking.framework'
+  install_framework 'Pods-bridge_Example/Bricks.framework'
+  install_framework 'Pods-bridge_Example/Mantle.framework'
   install_framework 'Pods-bridge_Example/bridge.framework'
 fi

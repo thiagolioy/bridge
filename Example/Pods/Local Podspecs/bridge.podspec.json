@@ -1,15 +1,15 @@
 {
   "name": "bridge",
   "version": "0.1.0",
-  "summary": "A short description of bridge.",
-  "description": "",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/bridge",
+  "summary": "Helper methods and utilities classes to make it easy to setup a Communication client based on AFnetworking",
+  "description": "Helper methods and utilities classes to make it easy to setup a Communication client based on AFnetworking .\nError handler and parse would be also implemented in a abstracted way. Forget about having to copy and paste\nyour network client from project to project, try bridge instead.",
+  "homepage": "https://github.com/thiagolioy/bridge",
   "license": "MIT",
   "authors": {
     "Thiago Lioy": "thiagolioy@gmail.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/bridge.git",
+    "git": "https://github.com/thiagolioy/bridge.git",
     "tag": "0.1.0"
   },
   "platforms": {
@@ -20,6 +20,14 @@
   "resource_bundles": {
     "bridge": [
       "Pod/Assets/*.png"
+    ]
+  },
+  "dependencies": {
+    "AFNetworking": [
+      "~> 3.0"
+    ],
+    "Bricks": [
+      "~> 0.1.1"
     ]
   }
 }
