@@ -14,8 +14,8 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "7E49892FD48112009FF7CEE3"
-               BuildableName = "bridge.framework"
+               BlueprintIdentifier = "58EE9A9A1B0C13B2A62DB3C3"
+               BuildableName = "libbridge.a"
                BlueprintName = "bridge"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>

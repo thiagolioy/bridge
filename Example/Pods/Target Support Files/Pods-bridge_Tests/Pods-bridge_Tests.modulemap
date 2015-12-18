@@ -1,6 +1,0 @@
-framework module Pods_bridge_Tests {
-  umbrella header "Pods-bridge_Tests-umbrella.h"
-
-  export *
-  module * { export * }
-}

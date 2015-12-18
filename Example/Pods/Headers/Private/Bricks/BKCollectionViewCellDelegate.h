@@ -1,1 +1,0 @@
-../../../Bricks/Pod/Classes/protocols/BKCollectionViewCellDelegate.h

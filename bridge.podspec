@@ -40,5 +40,5 @@ Pod::Spec.new do |s|
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   s.dependency 'AFNetworking', '~> 3.0'
-  s.dependency 'Bricks', '~> 0.1.1'
+  s.dependency 'bricks-Mantle', '~> 0.1.0'
 end

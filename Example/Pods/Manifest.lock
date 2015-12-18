@@ -14,11 +14,11 @@ PODS:
   - AFNetworking/Serialization (3.0.3)
   - AFNetworking/UIKit (3.0.3):
     - AFNetworking/NSURLSession
-  - Bricks (0.1.1):
+  - bricks-Mantle (0.1.0):
     - Mantle (~> 2.0.5)
   - bridge (0.1.0):
     - AFNetworking (~> 3.0)
-    - Bricks (~> 0.1.1)
+    - bricks-Mantle (~> 0.1.0)
   - Expecta (1.0.5)
   - Mantle (2.0.6):
     - Mantle/extobjc (= 2.0.6)
@@ -36,8 +36,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: ba06eb9f27de596808c0acc09e1c920cb1d17ab4
-  Bricks: 99f781f0c8ccf88e402cc4c125fba68638cfab5b
-  bridge: 29cb093809a5a89686993b0b9a3d7d257f29b850
+  bricks-Mantle: 164b915d059b0d8e9501f6e2fb479e0061401b61
+  bridge: 7d5b2fd7ffcfc5e4586c871a036ade7c851172d6
   Expecta: e1c022fcd33910b6be89c291d2775b3fe27a89fe
   Mantle: 299966b00759634931699f69cb6a30b9239b944d
   Specta: ac94d110b865115fe60ff2c6d7281053c6f8e8a2

@@ -7,6 +7,7 @@
 //
 
 #import "BDViewController.h"
+#import <bridge/BDNetworkClient.h>
 
 @interface BDViewController ()
 
